@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Leap {
 	public static String leap(int year) {
 		if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
-			return "ÈòÄê";
+			return "é—°å¹´";
 		} else {
-			return "Æ½Äê";
+			return "å¹³å¹´";
 		}
 	}
 
