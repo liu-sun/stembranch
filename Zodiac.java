@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Zodiac {
 	public static String zodiac(int year) {
-		String[] zodiac = { "Êó", "Å£", "»¢", "ÍÃ", "Áú", "Éß", "Âí", "Ñò", "ºï", "¼¦", "¹·", "Öí" };
+		String[] zodiac = { "é¼ ", "ç‰›", "è™Ž", "å…”", "é¾™", "è›‡", "é©¬", "ç¾Š", "çŒ´", "é¸¡", "ç‹—", "çŒª" };
 		return zodiac[(year - 4) % 12];
 	}
 
