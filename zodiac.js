@@ -1,7 +1,7 @@
 let zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
 
 
-function stembranch(year) {
+function zodiac(year) {
     let zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
     return zodiac[(year - 4) % 12];
 }
@@ -12,7 +12,7 @@ class Zodiac {
         this.zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
     }
 
-    stembranch(year) {
+    zodiac(year) {
         let zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
         return zodiac[(year - 4) % 12];
     }

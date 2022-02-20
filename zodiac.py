@@ -1,15 +1,15 @@
 zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪"
 
 
-def stembranch(year):
+def zodiac(year):
     zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪"
     return zodiac[(year - 4) % 12]
 
 
-class StemBranch:
+class Zodiac:
     def __init__(self):
         self.zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪"
 
-    def stembranch(self, year):
+    def zodiac(self, year):
         zodiac = "鼠牛虎兔龙蛇马羊猴鸡狗猪"
         return zodiac[(year - 4) % 12]
