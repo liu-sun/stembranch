@@ -80,7 +80,7 @@
 ## 常量
 
 ```python
-from stembranch.stembranch import stem, branch
+from stembranch import stem, branch
 
 for i, j in zip(stem * 6, branch * 5):
     print(i + j)
@@ -88,7 +88,7 @@ for i, j in zip(stem * 6, branch * 5):
 ```
 
 ```python
-from stembranch.stembranch import stem, branch
+from stembranch import stem, branch
 
 print(tuple(map(lambda i, j: i + j, stem * 6, branch * 5)))
 print(list(map(lambda i, j: i + j, stem * 6, branch * 5)))
@@ -96,7 +96,7 @@ print(list(map(lambda i, j: i + j, stem * 6, branch * 5)))
 ```
 
 ```python
-from stembranch.stembranch import stem, branch
+from stembranch import stem, branch
 
 for i in range(60):
     print(stem[i % 10] + branch[i % 12])
@@ -106,20 +106,20 @@ for i in range(60):
 ## 函数
 
 ```python
-from stembranch.stembranch import stembranch
+from stembranch import stembranch
 
-print(stembranch(2021))
+print(stembranch(2022))
 
 ```
 
 ## 类
 
 ```python
-from stembranch.stembranch import StemBranch
+from stembranch import StemBranch
 
 stembranch = StemBranch()
 print(stembranch.stem)
 print(stembranch.branch)
-print(stembranch.stembranch(2021))
+print(stembranch.stembranch(2022))
 
 ```

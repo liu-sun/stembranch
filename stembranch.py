@@ -3,8 +3,6 @@ branch = "子丑寅卯辰巳午未申酉戌亥"
 
 
 def stembranch(year):
-    stem = "甲乙丙丁戊己庚辛壬癸"
-    branch = "子丑寅卯辰巳午未申酉戌亥"
     return stem[(year - 4) % 10] + branch[(year - 4) % 12]
 
 
@@ -14,6 +12,4 @@ class StemBranch:
         self.branch = "子丑寅卯辰巳午未申酉戌亥"
 
     def stembranch(self, year):
-        stem = "甲乙丙丁戊己庚辛壬癸"
-        branch = "子丑寅卯辰巳午未申酉戌亥"
-        return stem[(year - 4) % 10] + branch[(year - 4) % 12]
+        return self.stem[(year - 4) % 10] + self.branch[(year - 4) % 12]
