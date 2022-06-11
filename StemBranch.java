@@ -1,5 +1,3 @@
-package stembranch;
-
 import java.util.Scanner;
 
 public class StemBranch {

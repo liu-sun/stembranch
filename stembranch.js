@@ -8,9 +8,10 @@ function stembranch(year) {
 
 
 class StemBranch {
+    stem = "甲乙丙丁戊己庚辛壬癸";
+    branch = "子丑寅卯辰巳午未申酉戌亥";
     constructor() {
-        this.stem = "甲乙丙丁戊己庚辛壬癸";
-        this.branch = "子丑寅卯辰巳午未申酉戌亥";
+
     }
 
     stembranch(year) {

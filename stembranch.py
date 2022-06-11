@@ -7,9 +7,11 @@ def stembranch(year):
 
 
 class StemBranch:
+    stem = "甲乙丙丁戊己庚辛壬癸"
+    branch = "子丑寅卯辰巳午未申酉戌亥"
+
     def __init__(self):
-        self.stem = "甲乙丙丁戊己庚辛壬癸"
-        self.branch = "子丑寅卯辰巳午未申酉戌亥"
+        pass
 
     def stembranch(self, year):
         return self.stem[(year - 4) % 10] + self.branch[(year - 4) % 12]
